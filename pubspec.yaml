@@ -1,0 +1,47 @@
+name: bookia
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  cached_network_image: ^3.4.1
+  carousel_slider: ^5.0.0
+  dio: ^5.8.0+1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  flutter_svg: ^2.0.17
+  gap: ^3.0.1
+  image_picker: ^1.1.2
+  lottie: ^3.3.1
+  pinput: ^5.0.1
+  shared_preferences: 2.1.1
+  smooth_page_indicator: ^1.2.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.3
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: DmSerifDisplay
+      fonts:
+        - asset: assets/fonts/DMSerifDisplay-Regular.ttf
+          weight: 400
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/image.png"
+  remove_alpha_ios: true
