@@ -27,5 +27,3 @@
    `flutter run`
 ## Connect
 - **LinkedIn**: [Mostafa Almasry](https://www.linkedin.com/in/mostafa2lmasry/)
-## Connect
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/your-profile-link)
